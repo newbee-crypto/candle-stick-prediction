@@ -23,7 +23,7 @@ The repository includes the model definition, a training notebook, an evaluation
 
 ## Repository Structure
 
-```text
+```text 
 .
 |-- analyze_model.py              # Evaluation, pattern analysis, Grad-CAM overlays, markdown report
 |-- best_model.pth                # Trained checkpoint
