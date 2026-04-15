@@ -33,7 +33,7 @@ image_path = "D:/full-stack2/data/charts/GOOGL/2025-11-18.png"
 image = Image.open(image_path).convert("RGB")
 image = transform(image).unsqueeze(0).to(device)
 
-#  Input features (change these)
+#  Input features: [RSI, MACD, OBV]
 features = torch.tensor([[60.97, 8.4961, 1.9244]], dtype=torch.float32).to(device)
 
 #  Prediction
